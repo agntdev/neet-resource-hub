@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Search",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate resource search flow"
+            }
+          }
+        ],
+        "send": {
+          "callback": "search:start"
+        }
+      }
+    ]
+  }
+]
